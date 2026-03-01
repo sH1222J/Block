@@ -7,16 +7,16 @@ https://raw.githubusercontent.com/moamoa7/adblock/main/GoodAD.txt
 ```
 <br>
 
-※ Video_Image_Control.js
-- 이미지 및 비디오 선명하게 보기 / 영상 배속 등
+※ Video_Control.js
+- 영상 화질 선명하게 보기 / 영상 배속 / PIP / 영상 ZOOM 등
 
 ```
-https://raw.githubusercontent.com/moamoa7/adblock/main/Video_Image_Control.js
+https://raw.githubusercontent.com/moamoa7/adblock/main/Video_Control.js
 ```
 <br>
 
 ※ Website_Optimizer.js
-- 웹페이지 최적화
+- 웹페이지 최적화 (이미지.비디오.네트워크 로딩 최적화) / Privacy Shield (트래커/추적코드 제거. 핑커프린팅)
 
 ```
 https://raw.githubusercontent.com/moamoa7/adblock/main/Website_Optimizer.js
