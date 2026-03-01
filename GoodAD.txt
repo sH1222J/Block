@@ -570,73 +570,7 @@ dcinside.com##ul.cmt_list > li[id^="comment_li_"].ub-content.dory
 gall.dcinside.com##.block-disable
 ! - - - - - 모바일
 gall.dcinside.com##li.block-disable
-! 디시 뉴스 없애기 (중앙일보)
-! - - - PC
-!dcinside.com##.news_result.integrate_cont
-! - - - 모바일
-!dcinside.com##.news-schthum-lst
-! - PC에서 필요없는거 다 없애기
-dcinside.com##.time_best
-dcinside.com##.concept_con.content
-dcinside.com##.gallmain.pageing_box
-dcinside.com##.recomImg.img.cont_list
-dcinside.com##.cont_head
-dcinside.com##.recomTxt.txt.cont_list
-! - 모바일에서 필요없는거 다 없애기
-dcinside.com##.view-btm-con
-dcinside.com##section.grid:nth-of-type(9)
-dcinside.com##section.livebest-group
-dcinside.com##.dna-group.grid
-dcinside.com##.gall-group.grid
-dcinside.com##.media-group.grid
-dcinside.com##section.grid:nth-of-type(4)
-dcinside.com##section.grid:nth-of-type(8)
-dcinside.com##section.grid:nth-of-type(7)
-dcinside.com##.news-schthum-lst
-! 추가
-! 출처 : https://raw.githubusercontent.com/green1052/GreenList/master/filter.txt
-||dctrend.ai
-||cdn.trend.rankify.best/dctrend/
-||cdn.inappnews.net
-||gall.dcinside.com/_js/survey.js
-dcinside.com###pop_bg
-dcinside.com##.closure-lightpop
-dcinside.com###opt_use_pop_bg
-dcinside.com###opt_use_pop
-dcinside.com##.r_timebest
-dcinside.com##.r_dcmedia
-dcinside.com##.trend
-dcinside.com##.dcmedia
-dcinside.com##.news_con
-dcinside.com##.r_only_daum
-dcinside.com##.r_recommend
-dcinside.com##.gall_exposure
-dcinside.com##.news_result
-!dcinside.com##+js(set, gall_content_count, noopFunc)
-!dcinside.com##+js(set, recomAjax, noopFunc)
-!dcinside.com##+js(set, newsAjax, noopFunc)
-!dcinside.com##+js(set, trendAjax, noopFunc)
-!dcinside.com##+js(set, mediaAjax, noopFunc)
-!dcinside.com##+js(set, issueAjax, noopFunc)
-!dcinside.com##+js(set, mixNewsMediaAjax, noopFunc)
-! 위 내용에서 개별 추가
-dctrend.ai##*
-||h5.dcinside.com
-h5.dcinside.com##*
-||wiki.dcinside.com
-wiki.dcinside.com##*
-! - 갤주소복사 안나오는거 해결
-gall.dcinside.com#@#[class^="ad"]
-! - 기타
-##[id^="ad_"]
-gall.dcinside.com##div[class*="banner"]
-##[data-ad]
-! - 모바일 디시에서 공지가 지워지는 현상 해결 (출처 : https://gall.dcinside.com/adguard/2348)
-m.dcinside.com#@##notice_list > li
-m.dcinside.com###notice_list > li:not(:has(.ntc-line-orange))
-m.dcinside.com###notice_list > li:nth-of-type(-n+3)
-! - Adblock-Rule-Collection-Lite 에서 차단된거 해제 (공유 버튼)
-dcinside.com#@#.btn_snsmore
+
 ! - 개죽이 차단
 dcinside.com##+js(nostif, adblock_detected7)
 !
@@ -6569,4 +6503,13 @@ trand.co.kr#@#[id][style*="background"][style]
 !||analytics*.tiktokw.us
 !||analytics-ipv6.tiktokw.us
 !||analytics.google.com
+
+
+
+
+!SH추가
+! - - - - - 짭플릭스
+/zzap\d+\.com/##.partner-br-wrap.index
+
+
 
